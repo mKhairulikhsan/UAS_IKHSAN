@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Komponen | Home</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <img src="images/logo.png" />
+        </header>
+        
+       <section class="content">
+        
+        <form action="proses-login.php" method="GET">
+            
+            <label class="form-style">
+                Nama Lengkap
+                <input class="input" type="text" placeholder="Nama Lengkap">
+             </label>
+         
+            <label class="form-style">
+               Telepon
+                <input class="input" type="number" placeholder="Telepon">
+             </label>
+       
+             <label class="form-style">
+                Email
+                 <input class="input" type="email" placeholder="Email">
+              </label>
+
+              <label class="form-style">
+               Password
+                 <input class="input" type="password" placeholder="Password">
+              </label>
+
+              <label class="form-style">
+                 Alamat
+                  <textarea class="input"></textarea>
+              </label>
+
+              <fieldset class="form-style">
+                <legend>Hobby </legend> 
+                <label>
+                    <input type="checkbox" value="Beladiri"> Beladiri
+                </label>
+                <label>
+                    <input type="checkbox" value="Futsal"> Futsal
+                </label>
+                <label>
+                    <input type="checkbox" value="Basket"> Basket
+                </label>
+                <label>
+                    <input type="checkbox" value="Renang"> Renang
+                </label>
+                <label>
+                    <input type="checkbox" value="Koding"> Koding
+                </label>
+              </fieldset>
+
+              <fieldset class="form-style">
+                <legend>Pekerjaan </legend> 
+                <label>
+                    <input type="radio" value="Direktur" name="Pekerjaan"> Direktur                </label>
+                <label>
+                    <input type="radio" value="Manager" name="Pekerjaan"> Manager
+                </label>
+                <label>
+                    <input type="radio" value="Karyawan" name="Pekerjaan"> Karyawan
+                </label>
+                <label>
+                    <input type="radio" value="Belum berkerja" name="Pekerjaan"> Belum berkerja
+                </label>
+              </fieldset>
+
+              <label class="form-style">
+                  Ukuran Sepatu
+                  <select class="input">
+                      <option value="39">Ukuran 39</option>
+                      <option value="40">Ukuran 40</option>
+                      <option value="41">Ukuran 41</option>
+                      <option value="42">Ukuran 42</option>
+                      <option value="43">Ukuran 43</option>
+                  </select>
+               </label>
+
+               <label class="form-style">
+                Warna favorit
+                <input list="warna" class="input">
+                <datalist id="warna">
+                    <option value="M">Merah
+                    <option value="B">Biru
+                    <option value="K">Kuning
+                    <option value="C">Coklat
+                    <option value="U">Ungu
+                </datalist>
+             </label>
+
+              <input type="submit" value="Kirim">
+        
+       
+        </form>
+
+      
+    </section>
+        
+       <nav class="sidebar">
+       
+            <a href="index.html" >Home</a>
+            <a href="form.html" class="active">Form</a>
+            <a href="table.html">Table</a>
+       
+        </nav>
+        <footer>footer</footer>
+
+    </section>
+</body>
+</html>
